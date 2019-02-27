@@ -67,8 +67,8 @@ var MovieImage = React.createClass({
     }
 })
 
-var moviesElements = movies.map(function(dupa, index) {
-    return React.createElement(Movie, {movie: dupa, key: index})
+var moviesElements = movies.map(function(element, index) {
+    return React.createElement(Movie, {movie: element, key: index})
 });
 
 var element =
